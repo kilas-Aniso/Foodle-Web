@@ -1,0 +1,53 @@
+.card-content {
+  padding: 5px;
+  
+}
+.card{
+  display: grid;
+  grid-template-columns: repeat((3, 1fr));
+  gap: 20px;
+  padding: 20px;
+
+}
+
+.circular-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #dd1a92; /* Added 'solid' and '5px' */
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.star {
+  color: gold;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  
+}
+
+.price p {
+  margin-right: 10px;
+  margin-top: 15px; 
+}
+
+.buy-button {
+  background-color: #dd1a92;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+}

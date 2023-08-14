@@ -1,0 +1,159 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+  
+.home{
+    display: flex;
+    justify-content:center;
+   
+   
+   
+}
+/* .text {
+ 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+   
+    
+  } */
+  
+  .btn1 {
+    margin-top: 10px;
+    margin-right: 10px; 
+    background-color: #dd1a92; 
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .sandwitch {
+    padding: 20px;
+  }
+  
+  .home {
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center;
+    margin: 20px 0;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .grid-item {
+    text-align: center;
+    padding: 20px;
+    background-color:#f0e5e5 ;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .grid-item h1 {
+    margin: 10px 0;
+  }
+  
+  .grid-item p {
+    line-height: 1.4;
+  }
+  
+  .categories-text {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .left-content,
+  .right-content {
+    flex: 1; 
+    text-align: center; 
+    margin: 5px;
+  }
+  
+  .left-content {
+    margin-right: 10px; 
+  }
+  
+  .right-content {
+    margin-left: 10px;
+  }
+  
+span{
+  color:#dd1a92;
+}
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 180px;
+}
+
+.image-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.image-container img {
+  width: 300px;
+  height: auto;
+  margin: 0 10px;
+}
+
+.image-container h1 {
+  margin: 10px 0;
+}
+
+.image-container span {
+  background-color:#dd1a92 ;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: white;
+}
+
+/* <================> */
+.menu-section {
+  padding: 20px;
+  margin: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu-section h1 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.highlight-text {
+  color: #dd1a92;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content p {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.see-all-button {
+  background-color: #dd1a92;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* <================> */
+

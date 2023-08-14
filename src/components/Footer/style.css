@@ -1,0 +1,107 @@
+
+/* ----------------------------------- FOOTER ----------------------------------- */
+*{
+  margin: 0%;
+  padding: 0%;
+}
+footer{
+  margin-top: 5em;
+   background-color:#f0e5e5 ;
+}
+.footer {
+  border-top: 2px ;
+  color: rgb(19, 18, 18);
+  display: grid;
+  padding:0% 1% 0% 8%;
+  grid-template-columns: repeat(5, 1fr);
+  font-family: 'Karla', sans-serif;
+ 
+}
+.fooodish{
+    color: #dd1a92;
+}
+
+.footer div{
+  padding-top: 2em;
+}
+
+.footer h3{
+  font-size: 24px !important;
+  font-weight: bold;
+}
+
+.footer p{
+  font-size: 18px;
+  line-height: 2.5;
+  padding-bottom: 1em;
+  font-weight: lighter;
+}
+
+
+
+.footer-div-1 h1{
+  font-size: 2.5em;
+  font-family: 'Karla', sans-serif;
+}
+
+.footer-div-1 b{
+  color: #ffe24c;
+}
+
+
+
+.footer-div-2{
+  margin-left: 10em;
+}
+.footer-div-2 p{
+  margin-bottom: -2.2em;
+}
+
+
+.footer-div-3{
+  margin-left: 2em;
+}
+.footer-div-3 p{
+  margin-bottom: -2.2em;
+}
+
+
+
+
+footer hr{
+  width: 50%;
+}
+
+.Copyright{
+  text-align: center;
+  font-size: .9em;
+  padding-top: 1em;
+  font-weight: lighter;
+}
+
+.footer-div-3 .icons {
+    color: #dd1a92;
+     display: flex;
+    justify-content: space-between;
+
+
+  }
+
+.footer-div-3 .icons svg {
+  font-size: 2.0em; 
+}
+@media only screen and (max-width:500px){
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (max-width:914px){
+    .footer-div-3{
+        margin-left: 0;
+      }
+      .footer-div-2{
+        margin-left: 0;
+      }
+}

@@ -1,0 +1,34 @@
+.images{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+  .imgss{
+    margin-left: 25%;
+    width: 80%;
+    height: 225px;
+    border-radius: 15%;
+    padding:4px 50px;
+  }
+  .first{
+    width: 120%;
+    height: 450px;
+    border-radius: 20px;
+    margin-left: 5%;
+  }
+  @media (max-width: 768px) {
+    .images {
+      flex-direction: column;
+      align-items: center;
+      margin: 5% auto;
+    }
+    .imgss {
+      width: 80%;
+      height: auto;
+      padding: 0px 20px;
+    }
+    .first {
+      height: 300px;
+  }
+  }
+  

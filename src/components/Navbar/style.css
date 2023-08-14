@@ -1,0 +1,22 @@
+/* style.css */
+/* Increase font size for navbar brand */
+.navbar-brand {
+    font-size: 38px !important;; /* Adjust the value as needed */
+    font-weight: bolder;
+    color: #dd1a92 !important;
+  }
+  
+  /* Increase font size for navigation links */
+  .navbar-nav .nav-link {
+    font-size: 22px !important; /* Adjust the value as needed */
+  }
+  
+  /* Style for the "Sign Up" button */
+  .custom-signup-btn {
+    border-radius: 20px !important;
+    border-color: #dd1a92 !important;
+    font-size: 20px !important;
+
+    
+  }
+  
